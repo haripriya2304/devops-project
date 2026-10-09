@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps CI/CD Project</title>
+
+    <style>
+        /* All CSS goes here */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7ff;
+            color: #172544;
+        }
+
+        header {
+            background: #101c38;
+            color: white;
+            padding: 20px 8%;
+        }
+
+        .hero {
+            padding: 70px 8%;
+            text-align: center;
+            background: linear-gradient(135deg, #ffffff, #e5edff);
+        }
+
+        .hero h1 {
+            font-size: 42px;
+        }
+
+        .hero span {
+            color: #1677ff;
+        }
+
+        .hero p {
+            color: #586782;
+            line-height: 1.8;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 40px 8%;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 16px;
+            box-shadow: 0 5px 20px #17254412;
+        }
+
+        .card h3 {
+            color: #1677ff;
+        }
+
+        footer {
+            background: #101c38;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>☁ DevOps Project</h2>
+        <p>Build · Push · Deploy</p>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Automating the Cloud with <span>DevOps</span></h1>
+            <p>
+                An end-to-end CI/CD pipeline using Jenkins, Terraform,
+                Docker, GitHub Container Registry and AWS EC2.
+            </p>
+        </section>
+
+        <section class="features">
+            <div class="card">
+                <h3>🐙 GitHub</h3>
+                <p>Manage and version application code and configuration.</p>
+            </div>
+
+            <div class="card">
+                <h3>⚙️ Jenkins</h3>
+                <p>Automate the CI/CD build and deployment workflow.</p>
+            </div>
+
+            <div class="card">
+                <h3>🏗️ Terraform</h3>
+                <p>Provision AWS infrastructure using code.</p>
+            </div>
+
+            <div class="card">
+                <h3>🐳 Docker</h3>
+                <p>Build a portable container image for the website.</p>
+            </div>
+
+            <div class="card">
+                <h3>📦 GHCR</h3>
+                <p>Store and distribute Docker images.</p>
+            </div>
+
+            <div class="card">
+                <h3>☁️ AWS EC2</h3>
+                <p>Run the container and host the website in the cloud.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>DevOps Project | Infrastructure · Automation · Deployment</p>
+    </footer>
+</body>
+</html>
